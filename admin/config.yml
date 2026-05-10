@@ -1,6 +1,9 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: nikulenka/pomestie-rusakovo
   branch: main
+  auth_type: pkce
+  app_id: Ov23lixFWxvsM2KAINHJ
 
 locale: ru
 
