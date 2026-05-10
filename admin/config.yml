@@ -2,9 +2,8 @@ backend:
   name: github
   repo: nikulenka/pomestie-rusakovo
   branch: main
-  base_url: https://api.netlify.com
-  auth_endpoint: auth
-  site_domain: pomestie-rusakovo.netlify.app
+  auth_type: pkce
+  app_id: Ov23lixFWxvsM2KAINHJ
 
 locale: ru
 
