@@ -1,0 +1,43 @@
+backend:
+  name: git-gateway
+  branch: main
+
+locale: ru
+
+media_folder: images
+public_folder: images
+
+collections:
+  - name: pages
+    label: Страницы сайта
+    files:
+      - name: index
+        label: Главная страница
+        file: index.html
+        fields:
+          - { label: Содержимое страницы, name: body, widget: code, default_language: html }
+      - name: about
+        label: О нас
+        file: about.html
+        fields:
+          - { label: Содержимое страницы, name: body, widget: code, default_language: html }
+      - name: bath
+        label: Баня
+        file: bath.html
+        fields:
+          - { label: Содержимое страницы, name: body, widget: code, default_language: html }
+      - name: lakes
+        label: Озёра
+        file: lakes.html
+        fields:
+          - { label: Содержимое страницы, name: body, widget: code, default_language: html }
+      - name: restorant
+        label: Ресторан
+        file: restorant.html
+        fields:
+          - { label: Содержимое страницы, name: body, widget: code, default_language: html }
+      - name: aclove
+        label: Беседка
+        file: aclove.html
+        fields:
+          - { label: Содержимое страницы, name: body, widget: code, default_language: html }
