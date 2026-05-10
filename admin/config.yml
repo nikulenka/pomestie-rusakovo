@@ -15,29 +15,29 @@ collections:
         label: Главная страница
         file: index.html
         fields:
-          - { label: Содержимое страницы, name: body, widget: code, default_language: html }
+          - { label: Содержимое страницы, name: body, widget: text }
       - name: about
         label: О нас
         file: about.html
         fields:
-          - { label: Содержимое страницы, name: body, widget: code, default_language: html }
+          - { label: Содержимое страницы, name: body, widget: text }
       - name: bath
         label: Баня
         file: bath.html
         fields:
-          - { label: Содержимое страницы, name: body, widget: code, default_language: html }
+          - { label: Содержимое страницы, name: body, widget: text }
       - name: lakes
         label: Озёра
         file: lakes.html
         fields:
-          - { label: Содержимое страницы, name: body, widget: code, default_language: html }
+          - { label: Содержимое страницы, name: body, widget: text }
       - name: restorant
         label: Ресторан
         file: restorant.html
         fields:
-          - { label: Содержимое страницы, name: body, widget: code, default_language: html }
+          - { label: Содержимое страницы, name: body, widget: text }
       - name: aclove
         label: Беседка
         file: aclove.html
         fields:
-          - { label: Содержимое страницы, name: body, widget: code, default_language: html }
+          - { label: Содержимое страницы, name: body, widget: text }
